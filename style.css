@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('fonts/Crimson-Roman-webfont.eot');
+    src: url('fonts/Crimson-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Crimson-Roman-webfont.woff') format('woff'),
+         url('fonts/Crimson-Roman-webfont.ttf') format('truetype'),
+         url('fonts/Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0;
+	font-family: "CrimsonRoman", "Hoefler Text", "Baskerville old face", "Garamond", "Times New Roman", serif;
+	background: #1a272a url('images/noise.png');
+	color: #354f54;
+	border-top: 5px solid #4da7b9;
+}
+
+p {
+	margin-left: 1em;
+	font-size: 3em;
+}
+
+strong {
+	font-weight: normal;
+	color: #4da7b9;
+}
+
+ul {
+	margin-left: 2em;
+	padding-left: 0;
+	list-style: none;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+a {
+	color: #4da7b9;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+a:hover {
+	color: #3a808e;
+	border-bottom-style: solid;
+}
+
+.tag {
+	display: inline-block;
+	font-family: "Monaco", "Consolas", "DejaVu Sans Mono", monospace;
+	font-size: 14px;
+	color: #233438;
+	width: 2.5em;
+	margin-left: -2.5em;
+}
+
+.tag.right {
+	margin-left: 0;
+	text-align: right;
+}
