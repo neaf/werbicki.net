@@ -9,6 +9,7 @@
     font-style: normal;
 
 }
+
 body {
 	margin: 0;
 	font-family: "CrimsonRoman", "Hoefler Text", "Baskerville old face", "Garamond", "Times New Roman", serif;
@@ -39,6 +40,7 @@ a {
 	color: #4da7b9;
 	border-bottom: 1px dotted;
 	text-decoration: none;
+	white-space: nowrap;
 }
 a:hover {
 	color: #3a808e;
